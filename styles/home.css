@@ -11,12 +11,16 @@ header {
 span {
 	margin-left: 20px;
 }
+.logo {
+    width: 15%;
+    height: auto;
+}
 section {
     padding-left: 10%;
     margin-right: 2%;
 }
 section.title {
-    background-image: url("/images/cropped.png");
+    background-image: url("/images/cropool-side.jpg");
     background-repeat: no-repeat;
     height: 400px;
     background-size: 100% auto;
@@ -49,6 +53,7 @@ button:hover {
     float: right;
     width: 30%;
     height:45%;
+    margin-top: 5%;
 }
 .conversing {
     padding-left: 10%;
@@ -66,6 +71,7 @@ button:hover {
     color: white;
     align-text: center;
     margin-top: 10%;
+    font-size: 0.8em;
 }
 i {
     color: black;
@@ -88,4 +94,5 @@ i {
 }
 footer {
     padding-left: 10%;
+    justify-content: center;
 }
